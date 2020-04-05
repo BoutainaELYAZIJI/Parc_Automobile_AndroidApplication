@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="@color/cardview_light_background"
+        android:src="@drawable/undraw_city_driver" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/nunito"
+        android:text="Ajouter Chauffeur"
+        android:textColor="#3F3D56"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimaryDark">
+
+        <EditText
+            android:id="@+id/EtFName"
+            android:layout_width="319dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:hint=" CIN "
+            android:inputType="text"
+            android:textSize="14dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimaryDark">
+
+        <EditText
+            android:id="@+id/EtLName"
+            android:layout_width="319dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:hint=" Nom  "
+            android:inputType="textPersonName"
+            android:textSize="14dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimaryDark">
+
+        <EditText
+            android:id="@+id/EtEmail"
+            android:layout_width="316dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:hint=" Prénom "
+            android:inputType="textPersonName"
+            android:textSize="14dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimaryDark">
+
+        <EditText
+            android:id="@+id/EtPass"
+            android:layout_width="316dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:hint=" Phone "
+            android:inputType="phone"
+            android:textSize="14dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimaryDark">
+
+        <EditText
+
+            android:id="@+id/EtConfirmPass"
+            android:layout_width="319dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:hint=" Genre de permis "
+            android:inputType="text"
+            android:textSize="14dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/nunito"
+        android:text="Enregistrer"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>

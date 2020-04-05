@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".AjouterVehicule">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:background="@color/cardview_light_background"
+            android:src="@drawable/undraw_veicle_sale" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/nunito"
+            android:text="Ajouter véhicule"
+            android:textColor="#3F3D56"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimaryDark">
+
+            <EditText
+                android:id="@+id/EtImmatricul"
+                android:layout_width="319dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint=" Immatriculation "
+                android:inputType="text"
+                android:textSize="14dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimaryDark">
+
+            <EditText
+                android:id="@+id/EtCateg"
+                android:layout_width="319dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint=" Catégorie "
+                android:inputType="text"
+                android:textSize="14dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimaryDark">
+
+            <EditText
+                android:id="@+id/EtMarque"
+                android:layout_width="316dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint=" Marque "
+                android:inputType="text"
+                android:textSize="14dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimaryDark">
+
+            <EditText
+                android:id="@+id/EtMarqueCarb"
+                android:layout_width="316dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint=" Marque de carburant "
+                android:inputType="text"
+                android:textSize="14dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnRegisterVhc"
+        android:layout_width="288dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/nunito"
+        android:text="Enregistrer"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnShowVhc"
+        android:layout_width="288dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/nunito"
+        android:text="Show Records"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</LinearLayout>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Login">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:background="@color/cardview_light_background"
+        android:src="@drawable/undraw_welcome" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="265dp"
+        android:layout_height="85dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="91dp"
+        android:background="@color/colorPrimary"
+        android:onClick="MissionsOnClick"
+        android:text="Missions"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="263dp"
+        android:layout_height="81dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="192dp"
+        android:background="@color/colorPrimary"
+        android:onClick="ChauffeursOnClick"
+        android:text="chauffeurs"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="262dp"
+        android:layout_height="81dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="292dp"
+        android:background="@color/colorPrimary"
+        android:text="Liste des vehicules"
+        android:onClick="VehiculesOnClick"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="26dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="quitterclick"
+        android:textColor="#ffff"
+        android:text="Quitter"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>
+
